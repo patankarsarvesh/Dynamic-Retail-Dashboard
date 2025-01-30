@@ -58,7 +58,8 @@ Contains details about sales representatives and their respective regions.
       - `Total Quantity` = `=SUM(Quantity)`.
    4. Build a dynamic KPI table and use symbols to enhance visual appeal.
 
-![image](https://github.com/user-attachments/assets/c2dee0c5-5fd6-4802-9bfa-811394978bed)
+![image](https://github.com/user-attachments/assets/18a12e9f-af20-4801-af8f-7bd1755626e6)
+
 
 ---
 
@@ -68,16 +69,18 @@ Contains details about sales representatives and their respective regions.
    **Steps:**
    1. Create a **Pivot Table** with `Order Date` grouped by Year and Month.
    2. Add `Sales` and `Profit` as values.
-   3. Create a **Line Chart** to display trends for Sales and Profit.
+   3. Create a **Scatter Plot** to display trends for Sales and Profit.
    4. Apply slicers to filter by category, market, or region dynamically.
+
+![image](https://github.com/user-attachments/assets/8c653fea-b32a-4291-9a55-fcce8b73b71e)
 
 ---
 
-### 3. **Category-Wise Profit**
-   **Objective:** Analyze profitability across product categories.
+### 3. **Category-Wise KPI Values and Percentage**
+   **Objective:** Analyze KPIs across product categories.
 
    **Steps:**
-   1. Create a **Pivot Table** using `Category` as rows and `Profit` as values.
+   1. Create a **Pivot Table** using `Category` as rows and all the KPIs as values.
    2. Sort the table in descending order of Profit.
    3. Create a **Bar Chart** to visualize category-wise profit.
    4. Add slicers for interactivity.
